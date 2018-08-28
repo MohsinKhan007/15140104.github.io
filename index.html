@@ -11,17 +11,80 @@
 
 
 
-     <link href="css/style.css" rel="stylesheet" type='text/css' media="all" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+
+       
+  
+    
+  
+    <link href="css/style.css" rel="stylesheet" type='text/css' media="all" />
     <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
-  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-  <script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="/resources/demos/style.css">
+
+
+    <script>
   $( function() {
     $( "#pic" ).draggable();
   } );
   </script>
+
+  <script>
+  $( function() {
+    $( "#progressbar" ).progressbar({
+      value: 37
+    });
+  } );
+  </script>
+
+
+<style >
+    @media screen and (max-width: 810px) {
+    #objective, #skills, #other_skills, #education, #social_work, #refernces  {
+        margin-left: 150px;
+    }
+
+
+@media (max-width: 575.98px) {  }
+
+
+@media (max-width: 767.98px) {  }
+
+
+@media (max-width: 991.98px) { ... }
+
+
+@media (max-width: 1199.98px) { ... }
+
+  
+</style>
+
 </head>
 
-<body>
+
+<body body data-spy="scroll" data-target=".navbar" data-offset="50">
+
+
+<nav style="position: center;" class="navbar navbar-expand-lg navbar-light bg-light">
+  
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div style="padding-left: 450px;" class="navbar-nav">
+      <a class="nav-item nav-link active" href="#contact-info">Introduction <span class="sr-only"></span></a>
+      <a class="nav-item nav-link" href="#eductaion">Education</a>
+      <a class="nav-item nav-link" href="#skills">Skills</a>
+      <a class="nav-item nav-link " href="#Awards_and_fellowships">Awards and fellowships</a>
+    </div>
+  </div>
+</nav>
+
+
 
     <div id="page-wrap">
         <div id="mydiv">    
@@ -30,16 +93,19 @@
         <div id="contact-info" class="vcard">
         
             <!-- Microformats! -->
-        
+                 
             <h1 class="fn">Muhammad Mohsin</h1>
         
             <p>
                 Cell: <span class="tel">0333-7371923</span><br />
-                Email: <a class="email" href="mailto:15140104@gift.edu.pk">15140104@gift.edu.pk</a>
+                Email: <a class="email" href="mailto:15140104@gift.edu.pk">15140104@gift.edu.pk</a><br/>
+                Skype: <a class="email" href="https://www.skype.com/en/home/">MohsinKhan008@skype.com</a><br/>
+                Address: 452 A Block Model Town Gujranwala <br/>
+
             </p>
         </div>
                 
-        <div id="objective">
+        <div id="objective" class="vcard">
             <p>
                 I am an outgoing and energetic (ask anybody) young professional, seeking a 
                 career that fits my professional skills, personality, and murderous tendencies. 
@@ -48,64 +114,199 @@
             </p>
         </div>
         
-        <div class="clear"></div>
-        
-        <dl>
-            <dd class="clear"></dd>
-            
-            <dt>Education</dt>
-            <dd>
-                <h2>Withering Madness University - Planet Vhoorl</h2>
-                <p><strong>Major:</strong> Public Relations<br />
-                   <strong>Minor:</strong> Scale Tending</p>
-            </dd>
-            
-            <dd class="clear"></dd>
-            
-            <dt>Skills</dt>
-            <dd>
-                <h2>Office skills</h2>
-                <p>Office and records management, database administration, event organization, customer support, travel coordination</p>
-                
-                <h2>Computer skills</h2>
-                <p>Microsoft productivity software (Word, Excel, etc), Adobe Creative Suite, Windows</p>
-            </dd>
-            
-            <dd class="clear"></dd>
-            
-            <dt>Experience</dt>
-            <dd>
-                <h2>Doomsday Cult <span>Leader/Overlord - Baton Rogue, LA - 1926-2010</span></h2>
-                <ul>
-                    <li>Inspired and won highest peasant death competition among servants</li>
-                    <li>Helped coordinate managers to grow cult following</li>
-                    <li>Provided untimely deaths to all who opposed</li>
-                </ul>
-                
-                <h2>The Watering Hole <span>Bartender/Server - Milwaukee, WI - 2009</span></h2>
-                <ul>
-                    <li>Worked on grass-roots promotional campaigns</li>
-                    <li>Reduced theft and property damage percentages</li>
-                    <li>Janitorial work, Laundry</li>
-                </ul> 
-            </dd>
-            
-            <dd class="clear"></dd>
-            
-            <dt>Hobbies</dt>
-            <dd>World Domination, Deep Sea Diving, Murder Most Foul</dd>
-            
-            <dd class="clear"></dd>
-            
-            <dt>References</dt>
-            <dd>Available on request</dd>
-            
-            <dd class="clear"></dd>
-        </dl>
-        
-        <div class="clear"></div>
+
+
+
+<div id ="eductaion">
+<br/><br/>
+
+<h2 style="font-size: 50px; color: #B22222; padding-right: 100px"> Education  </h2>
     
-    </div>
+<p>_______________________________________________________________________________________________</p>
+    <div class="table-responsive">          
+    <table class="table">
+    <thead>
+      <tr>
+        
+        <th>Eduaction</th>
+        <th>Major</th>
+        <th>Organization</th>
+        
+        <th>Year of completion</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Matric</td>
+        <td>Science (Bio)</td>
+        <td>The Educators </td>
+        <td>10/7/2013</td>
+        
+      </tr>
+    </tbody>
+<tbody>
+      <tr>
+        <td>Intermidiate</td>
+        <td>FSC Engineering</td>
+        <td>Superior College </td>
+        <td>14/8/2015</td>
+        
+      </tr>
+    </tbody>
+
+<tbody>
+      <tr>
+        <td>Bachelor's</td>
+        <td>Software Engineering</td>
+        <td>GIFT University</td>
+        <td>continue(2019 competion date)</td>
+        
+      </tr>
+    </tbody>
+
+
+  </table>
+  </div>
+
+</div>
+
+
+
+
+<div id ="skills">
+<br/><br/>
+
+<h2 style="font-size: 50px; color: #B22222; padding-right: 100px"> Skills  </h2>
+    
+<p>_______________________________________________________________________________________________</p>
+    
+  <div class="container">
+  <h2>Skill Set 1</h2><br/>
+  <h3>Languages and Frameworks</h3><br/>
+    <h3>C++</h3>
+  <div class="progress">
+    <div class="progress-bar" style="width:70%">70%</div>
+  </div><br>
+
+  <h3>JAVA(JFrame,JavaFx)</h3>
+  <div class="progress">
+    <div class="progress-bar " style="width:40%">40%</div>
+  </div><br>
+
+  <h3>Java script (JQuery)</h3>
+  <div class="progress">
+    <div class="progress-bar " style="width:30%">30%</div>
+  </div><br>
+
+  <h3>Wordpress</h3>
+  <div class="progress">
+     <div class="progress-bar " style="width:60%">60%</div>
+  </div><br>
+
+  <h3>PHP</h3>
+  <div class="progress">
+    <div class="progress-bar " style="width:50%">50%</div>
+  </div><br>
+
+ <h3>My SQL database</h3>
+  <div class="progress">
+    <div class="progress-bar " style="width:50%">60%</div>
+  </div><br>
+
+  <h3>HTML,CSS</h3>
+  <div class="progress border">
+    <div class="progress-bar " style="width:80%">80%</div>
+  </div><br>
+
+  <h3>Bootstrap</h3>
+  <div class="progress">
+    <div class="progress-bar " style="width:60%">60%</div>
+  </div><br>
+
+  <h3>Unity</h3>
+  <div class="progress border">
+    <div class="progress-bar " style="width:30%">30%</div>
+  </div><br>
+
+  
+</div>
+
+
+
+
+
+</div>
+
+
+
+<div id ="other_skills">
+<br/><br/>
+
+<h2 style="font-size: 50px; color: #B22222; padding-right: 100px">Basic Skills  </h2>
+    
+<p>_______________________________________________________________________________________________</p>
+    
+<div class="container">
+  
+  <h3>Softwares</h3>
+
+  <ul class="list-group list-group-flush">
+  <li class="list-group-item">Microsoft Office (2016)</li>
+  <li class="list-group-item">Filmora(Video editing Software)</li>
+
+  
+</ul>
+    
+<h3>Languages</h3>
+  <ul class="list-group list-group-flush">
+  <li class="list-group-item">English </li>
+  <li class="list-group-item">Spanish (Basic Knowledge)</li>
+
+  
+</ul>
+
+
+
+
+</div>
+
+
+
+<div id ="Awards_and_fellowships">
+<br/><br/>
+
+<h2 style="font-size: 50px; color: #B22222; padding-right: 100px">Awards and Fellowships  </h2>
+    
+<p>_______________________________________________________________________________________________</p>
+    
+<div class="container">
+  
+  <h3>Academic</h3>
+  <br/>
+
+  <ul class="list-group list-group-flush">
+  <li class="list-group-item">1. Most Hardworking Student (2010) The Educators </li>
+  <li class="list-group-item">2. Best Moniter Award (2011) The Educators</li>
+  <li class="list-group-item">3. 1st position in Tech Week Gift Univeristy 2016</li>
+  <li class="list-group-item">4. Runner-up in Tech Week Gift Univeristy 2018</li>
+  </ul>
+  <br/>
+  <h3>Extra curricular activities</h3>
+  <ul class="list-group list-group-flush">
+  <li class="list-group-item">1. Best Bowler Award Annual Gala 2009</li>
+  <li class="list-group-item">2. Winner in Night-cricket tornament 2017 </li>
+  <li class="list-group-item">3. Runner up in Mini-sports Gala 2018 </li>
+  <li class="list-group-item">4. Gold Medal in Whushu 2018 Sports Gala Gift Univeristy</li>
+  </ul>
+    
+</div>
+   
+
+
+
+
+
+
 
 
 </body>
