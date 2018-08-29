@@ -4,6 +4,7 @@
 			}
         body{
 			font: 16px Helvetica, Sans-Serif; line-height: 24px; background: url(images/noise.jpg);
+            overflow-y:scroll;
 			}
         .clear {
 			clear: both;
@@ -18,11 +19,23 @@
         max-width:100%;height:auto;
         
 
+
+
+        }
+
     @media only screen and (max-width:620px) {
   /* For mobile phones: */
    .pic, .objective {
     width:100%;
    }
+
+
+
+.responsive {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+}
 
 
         }
